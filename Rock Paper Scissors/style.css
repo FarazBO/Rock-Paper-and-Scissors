@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(41, 68, 71);
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.player-score,
+.computer-score {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.score p {
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+button {
+ background: none;
+ /* border: none; */
+ cursor: pointer;
+}
+
+.options {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.player-options {
+ transform: rotateY(180deg);
+  position: absolute;
+  top: 40%;
+  left: 5%
+}
+
+.computer-options {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
